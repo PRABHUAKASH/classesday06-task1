@@ -1,0 +1,12 @@
+class movie {
+ constructor (Title,Studio,Rating){
+    this.Title = Title;
+    this.Studio = Studio;
+    this.Rating = Rating;
+ }
+ retname ( ){
+    return "Title","Studio","Rating";
+ }
+}
+var a = new movie ("Casino Royale","Eon Production","PG13");
+console.log(a.retname( ));
